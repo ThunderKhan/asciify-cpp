@@ -23,6 +23,10 @@ This project was built in **C++**, focusing on simplicity, performance, and port
 - Command-line interface for easy usage
 - Minimal dependencies (fully self-contained)
 
+<p align="center">
+  <img src="assets/output.jpg" alt="ASCII Output" width="500"/>
+</p>
+
 ## Installation
 1. Clone the repository:
 ```bash
