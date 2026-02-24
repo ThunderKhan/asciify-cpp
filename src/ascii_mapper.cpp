@@ -14,8 +14,8 @@ namespace asciify {
     int h = img.height;
     int c = img.channels;
 
-    for ( int y = 0; y < h; y += 2 ) {
-      for ( int x = 0; x < w; ++x ) {
+    for ( int y = 0; y < h; y += 4 ) {
+      for ( int x = 0; x < w; x += 2 ) {
         int idx = (y * w + x) * c;
 
         unsigned char r = img.data[ idx + 0 ];
